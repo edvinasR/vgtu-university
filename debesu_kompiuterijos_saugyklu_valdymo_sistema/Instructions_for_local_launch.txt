@@ -1,0 +1,12 @@
+Eiles paleidimas
+
+cd C:\Users\Edvin\Desktop\Saugyklu_valdymo_sistema\debesu_kompiuterijos_saugyklu_valdymo_sistema 
+forever -c php artisan queue:work --tries=1
+
+Schedulerio paleidimas
+cd C:\Users\Edvin\Desktop\Saugyklu_valdymo_sistema\debesu_kompiuterijos_saugyklu_valdymo_sistema 
+forever -c php artisan schedule:run
+
+Aplikcaijos aliedimas
+cd C:\Users\Edvin\Desktop\Saugyklu_valdymo_sistema\debesu_kompiuterijos_saugyklu_valdymo_sistema 
+php artisan serve

@@ -1,0 +1,52 @@
+{
+    "fields": [
+		{
+            "name": "paskaita",
+            "type": "integer#unsigned"
+        },
+		{
+            "name": "grupe",
+            "type": "integer#unsigned"
+        }
+	
+    ],
+    "foreign_keys": [
+        {
+            "column": "paskaita",
+            "references": "id",
+            "on": "paskaitos",
+            "onDelete": "cascade"
+        },
+		        {
+            "column": "grupe",
+            "references": "id",
+            "on": "KET_grupes",
+            "onDelete": "cascade"
+        }
+    ],
+    "relationships": [
+
+		{
+            "name": "paskaita",
+            "type": "belongsTo",
+            "class": "App\\Paskaita"
+        },
+				{
+            "name": "grupe",
+            "type": "belongsTo",
+            "class": "App\\KET_grupe"
+        }
+    ],
+    "validations": [
+
+		{
+            "field": "paskaita",
+            "rules": "required"
+        },
+		{
+            "field": "grupe",
+            "rules": "required"
+        }
+       
+    ]
+}

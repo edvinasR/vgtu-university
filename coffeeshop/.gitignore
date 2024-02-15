@@ -1,0 +1,17 @@
+/api/node_modules
+/api/public/hot
+/api/public/storage
+/api/storage/*.key
+/api/vendor
+/api/.env
+/api/.phpunit.result.cache
+/api/Homestead.json
+/api/Homestead.yaml
+/api/npm-debug.log
+/api/yarn-error.log
+/react/.idea/
+/react/dist/*
+!/react/dist/.htaccess
+/react/node_modules/
+/react/tests/__coverage__/
+
