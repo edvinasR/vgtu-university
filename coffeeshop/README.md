@@ -43,7 +43,3 @@ npm run start-prod
 
 APP will be accessible on http://localhost:3000 or http://localhost:8080 
 
-### Live DEMO
-
-Live demo is available on http://165.22.14.41:8300
-Login info: -e testas@test.com -p 12345678
